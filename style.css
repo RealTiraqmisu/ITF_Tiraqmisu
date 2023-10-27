@@ -1,0 +1,138 @@
+*{
+    font-family: 'Kanit';
+    color: rgb(53, 53, 53);
+}
+body{
+    margin: 0;
+    background-color: rgb(253, 248, 233);
+}
+main{
+    width: 1024px;
+    min-height: 100vh;
+    border: 2px rgb(255, 135, 135) solid;
+    margin: 0px auto;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.parent{
+    position: relative;
+    background-color: rgb(255, 253, 234);
+    width: 191px;
+    height: 191px;
+    background-image: url(cat1.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 9999px;
+}
+.child{
+    display: grid;
+    position: absolute;
+    place-items: center;
+    top: 70%;
+    left: 70%;
+    background-color: rgb(255, 135, 135);
+    width: 60px;
+    height: 60px;
+    border-radius: 9999px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    font-size: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+a:hover{
+    color: rgb(64, 67, 255);
+    text-decoration: underline;
+}
+.row{
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    gap: 0px 20px;
+    align-items: center;
+}
+p{
+    margin: 0;
+}
+.gal{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px 200px;
+    gap: 16px;
+    width: 1000px;
+    height: 1000px;
+}
+.gal .pic{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+}
+#pic1{
+    background-image: url(cat3.jpg);
+    background-size: cover;
+    background-position: center;
+    grid-column: span 2 / span 2;
+    grid-row: span 2;
+    width: 100%;
+    height: 100%;
+    background-color: brown;
+}
+#pic2{
+    background-image: url(cat4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#pic3{
+    background-image: url(cat5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#pic4{
+    background-image: url(cat6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#pic5{
+    background-image: url(cat7.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#pic6{
+    background-image: url(cat8.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#pic7{
+    background-image: url(cat9.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#pic8{
+    background-image: url(cat10.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#pic9{
+    background-image: url(cat11.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#pic10{
+    background-image: url(cat12.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#pic11{
+    background-image: url(cat13.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#pic12{
+    background-image: url(cat14.jpg);
+    background-size: cover;
+    background-position: center;
+}
