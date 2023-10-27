@@ -14,8 +14,7 @@
             title.innerText = name + " Profile";
         }
         function setImage(){
-            const profileImage = document.getElementById("profileImage");
-            profileImage.style.backgroundImage = "url(https://i.pinimg.com/736x/7c/5d/63/7c5d63a29b6c05c0c1394c38cd67fa08.jpg)";
+            document.getElementById("profileImage").style.backgroundImage = "url(" + document.getElementById("url").value +")";
         }
     </script>
 </head>
